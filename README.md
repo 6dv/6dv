@@ -1,6 +1,6 @@
 # 6dv
 
-Join the [convo on Discord](https://discord.gg/RHprFfuBte)
+<a href="https://discord.gg/RHprFfuBte"><img alt="discord" src="https://img.shields.io/badge/Discord-Community-green"/></a>
 
 ## General Structure
 File is built out of this general structure, e.g. each one of these is bytes from start -> finish in the file:
