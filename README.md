@@ -1,5 +1,7 @@
 # 6dv
 
+Join the [convo on Discord](https://discord.gg/RHprFfuBte)
+
 ## General Structure
 File is built out of this general structure, e.g. each one of these is bytes from start -> finish in the file:
 
