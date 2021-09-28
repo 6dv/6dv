@@ -32,6 +32,6 @@ Each frame sequence has have the following structure:
 
 ## Example
 
-Draw this out in <<<<Fill this in>>>>>
+![image](https://user-images.githubusercontent.com/8617779/135152689-3cbc6384-88c6-4fa5-8137-f58fcd27e07b.png)
 
 
