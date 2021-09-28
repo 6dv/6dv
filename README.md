@@ -1,6 +1,17 @@
 # 6dv
 
+A file format built for live streaming 3D content to standalone VR headsets in 6DOF.
+
 <a href="https://discord.gg/RHprFfuBte"><img alt="discord" src="https://img.shields.io/badge/Discord-Community-green"/></a>
+
+------
+
+.6dv stands for **6** **D**egree of freedom **V**ideo. 
+
+.6dv was built from the ground up with a focus on streaming dynamic 3D generated content to standalone VR headsets that are limited in processing power. Volumetric Video takes up way too much bandwidth and requires expensive setups to create content. 6DV alleviates these issues by letting anyone with a computer livestream 3D scenes at less than 1/10 the bandwidth of the equivalent volumetric video to any standalone headset via webxr.
+
+Checkout a demo here: https://parched-seat.surge.sh/?s=097aef
+
 
 ## General Structure
 File is built out of this general structure, e.g. each one of these is bytes from start -> finish in the file:
