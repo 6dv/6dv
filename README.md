@@ -66,8 +66,8 @@ You can also ⭐ Star this repo to show your interest/support.
 
 Over the next few months i'll be open sourcing several tools I've built over the last year that make the generation and playback of these files a lot easier.
 
-[] Unity -> .6DV SDK
-[] Unity -> primitive extracter
-[] .6dv Web Player built in WebXR
-[] Aframe .6dv player
-[] Desktop tools for editing .6dv files to remove/add effects
+* Unity -> .6DV SDK
+* Unity -> primitive extracter
+* .6dv Web Player built in WebXR
+* Aframe .6dv player
+* Desktop tools for editing .6dv files to remove/add effects
