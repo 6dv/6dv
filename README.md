@@ -35,3 +35,12 @@ Each frame sequence has have the following structure:
 ![image](https://user-images.githubusercontent.com/8617779/135152689-3cbc6384-88c6-4fa5-8137-f58fcd27e07b.png)
 
 
+## Contributing
+
+Any way you want to contribute is a good way!
+
+The best place to start is to join the discord and Dan(dan#9955) will help you get setup. I'm working on documentation to help make this easier!
+
+Even if you don't plan to submit any code, just joining the discussion on discord Discord and giving your feedback helps a lot. New Ideas are always welcome!
+
+You can also ⭐ Star this repo to show your interest/support.
