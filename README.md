@@ -71,4 +71,3 @@ Over the next few months i'll be open sourcing several tools I've built over the
 [] .6dv Web Player built in WebXR
 [] Aframe .6dv player
 [] Desktop tools for editing .6dv files to remove/add effects
-[] ABR algorithms for improving performance on lower end devices
