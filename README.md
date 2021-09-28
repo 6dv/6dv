@@ -8,12 +8,17 @@ A file format built for live streaming 3D content to standalone VR headsets in 6
 
 .6dv stands for **6** **D**egree of freedom **V**ideo. 
 
-.6dv was built from the ground up with a focus on streaming dynamic 3D generated content to standalone VR headsets that are limited in processing power. Volumetric Video takes up way too much bandwidth and requires expensive setups to create content. 6DV alleviates these issues by letting anyone with a computer livestream 3D scenes at less than 1/10 the bandwidth of the equivalent volumetric video to any standalone headset via webxr.
+.6dv was built from the ground up with a focus on streaming dynamic 3D generated content to standalone VR headsets that are limited in processing power.
 
 Checkout a demo here: https://parched-seat.surge.sh/?s=097aef
 
+## Benefits
+*  Live streaming/vod playback supported
+*  Bandwidth less than 1/10 of an equivalent volumetric video
+*  Interactions can be baked into the file itself letting viewers perform lightweight actions to engage with the content(see the demo above for an example)
 
-## General Structure
+
+## General Structure of a .6dv
 File is built out of this general structure, e.g. each one of these is bytes from start -> finish in the file:
 
 File Signature (2 bytes) [uint16]: so that we now we're working with 6dv (see file signatures) 0xBEEF
@@ -52,6 +57,18 @@ Any way you want to contribute is a good way!
 
 The best place to start is to join the discord and Dan(dan#9955) will help you get setup. I'm working on documentation to help make this easier!
 
-Even if you don't plan to submit any code, just joining the discussion on discord Discord and giving your feedback helps a lot. New Ideas are always welcome!
+Even if you don't plan to submit any code, just joining the discussion on Discord and giving your feedback helps a lot. New Ideas are always welcome!
 
 You can also ⭐ Star this repo to show your interest/support.
+
+
+## Upcoming open source repos
+
+Over the next few months i'll be open sourcing several tools I've built over the last year that make the generation and playback of these files a lot easier.
+
+[] Unity -> .6DV SDK
+[] Unity -> primitive extracter
+[] .6dv Web Player built in WebXR
+[] Aframe .6dv player
+[] Desktop tools for editing .6dv files to remove/add effects
+[] ABR algorithms for improving performance on lower end devices
