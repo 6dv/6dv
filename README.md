@@ -39,7 +39,7 @@ File is built out of this general structure, e.g. each one of these is bytes fro
 ## Frame Sequence format
 Each frame sequence has to have the following structure:
 
-1. Frame start marker (1 byte) [uint8]: This could be any unique random byte to just be like "hey, you're not crazy, this is where the frame starts"
+1. Frame start marker (1 byte) [uint8]: A unique random byte to indicate the start of a frame `0xF0`
 1. Frame type (1 byte) [uint8]: 0 for IFrame and 1 for PFrame
 1. Frame size (4 bytes) [uint32]: The size of all the frame bytes
 1. Frame data (frame_size bytes): The actual frame data. This could either be:
