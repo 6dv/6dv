@@ -21,10 +21,10 @@ Checkout a demo here: https://parched-seat.surge.sh/?s=097aef
 ## General Structure of a .6dv
 File is built out of this general structure, e.g. each one of these is bytes from start -> finish in the file:
 
-File Signature (2 bytes) [uint16]: so that we now we're working with 6dv (see file signatures) 0xBEEF
-Meta Size (4 bytes) [uint32]: The size of the metadata payload
-Meta ByteString (meta_size bytes): A msgpack metadata object containing the info specified in Header Format
-A series of repeating Frame Sequences. Each frame constitutes a contiguous block of bytes which can be read in as individual frames
+* File Signature (2 bytes) [uint16]: so that we now we're working with 6dv (see file signatures) 0xBEEF
+* Meta Size (4 bytes) [uint32]: The size of the metadata payload
+* Meta ByteString (meta_size bytes): A msgpack metadata object containing the info specified in Header Format
+* A series of repeating Frame Sequences. Each frame constitutes a contiguous block of bytes which can be read in as individual frames
 
 ## Header Format
 
@@ -37,7 +37,7 @@ A series of repeating Frame Sequences. Each frame constitutes a contiguous block
 
 
 ## Frame Sequence format
-Each frame sequence has have the following structure:
+Each frame sequence has to have the following structure:
 
 1. Frame start marker (1 byte) [uint8]: This could be any unique random byte to just be like "hey, you're not crazy, this is where the frame starts"
 1. Frame type (1 byte) [uint8]: 0 for IFrame and 1 for PFrame
@@ -47,8 +47,8 @@ Each frame sequence has have the following structure:
     1. A PFrame, msgpack JSON diff object represented using the same encoding as the metadata header.
 
 ## Example
+![frame_marker_diagram](https://user-images.githubusercontent.com/8617779/135314518-603c867f-2aeb-48bb-8f72-398a845c17b7.jpg)
 
-![image](https://user-images.githubusercontent.com/8617779/135152689-3cbc6384-88c6-4fa5-8137-f58fcd27e07b.png)
 
 
 ## Contributing
