@@ -49,6 +49,15 @@ Each frame sequence has to have the following structure:
 ## Example
 ![frame_marker_diagram](https://user-images.githubusercontent.com/8617779/135314518-603c867f-2aeb-48bb-8f72-398a845c17b7.jpg)
 
+## IFrames and PFrames
+
+6DV is heavily influenced from the 2D live video streaming tech called DASH: https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP
+
+IFrames describe a full snapshot. The full snapshot in this case is a `.glb` file.
+
+Pframes are a bJSON tree that describe the new state of each property that has changed since the last frame
+
+By combining I Frames and P Frames we can create a 3D video that fully describes a scene.
 
 
 ## Contributing
@@ -60,6 +69,22 @@ The best place to start is to join the discord and Dan(dan#9955) will help you g
 Even if you don't plan to submit any code, just joining the discussion on Discord and giving your feedback helps a lot. New Ideas are always welcome!
 
 You can also ⭐ Star this repo to show your interest/support.
+
+## Features & Roadmap
+
+Supported Features 
+* Realtime Lights (Spot, Directional, Point)
+* Meshes
+* Skinned Meshes
+* Unchanging Textures
+* Emissive Materials
+
+Roadmap
+* Lightmaps
+* Particles
+* Skyboxes
+* Render Textures
+* Custom Shaders
 
 
 ## Upcoming open source repos
