@@ -12,6 +12,8 @@ A file format built for live streaming 3D content to standalone VR headsets in 6
 
 Checkout a demo here: https://parched-seat.surge.sh/?s=097aef
 
+Example `6dv` included in the project
+
 ## Benefits
 *  Live streaming/vod playback supported
 *  Bandwidth less than 1/10 of an equivalent volumetric video
