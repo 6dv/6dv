@@ -55,11 +55,11 @@ Each frame sequence has to have the following structure:
 
 6DV is heavily influenced from the 2D live video streaming tech called DASH: https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP
 
-IFrames describe a full snapshot. The full snapshot in this case is a `.glb` file.
+IFrames describe a full snapshot. The snapshot is a `.glb` file that fully describes the scene.
 
 Pframes are a bJSON tree that describe the new state of each property that has changed since the last frame
 
-By combining I Frames and P Frames we can create a 3D video that fully describes a scene.
+By loading an I Frame, then applying a series of P Frames to the existing state, we can create a 3D video that fully describes a scene.
 
 
 ## Contributing
