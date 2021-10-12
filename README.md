@@ -1,6 +1,6 @@
 # 6dv
 
-A file format built for live streaming 3D content to standalone VR headsets in 6DOF.
+A file format built for live streaming 3D generated content to standalone VR headsets in 6DOF.
 
 <a href="https://discord.gg/RHprFfuBte"><img alt="discord" src="https://img.shields.io/badge/Discord-Community-green"/></a>
 
